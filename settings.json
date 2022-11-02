@@ -1,0 +1,96 @@
+{
+  // Workbench
+  "workbench.colorTheme": "Dracula Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.labelFormat": "short",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.wordWrap": "on",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 26,
+  "terminal.integrated.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "gutter",
+  "editor.rulers": [80, 120],
+  "editor.parameterHints.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.semanticHighlighting.enabled": true,
+  "extensions.ignoreRecommendations": true,
+  "editor.fontFamily": "JetBrains Mono, Fira Code",
+  "editor.fontLigatures": true,
+
+  // VSCode stuff
+  "breadcrumbs.enabled": true,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  // Emmet
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  // Extensions
+  "diffEditor.ignoreTrimWhitespace": false,
+  "material-icon-theme.folders.associations": {
+    "domain": "core",
+    "infra": "app",
+    "main": "public",
+    "presentation": "connection",
+    "cryptography": "secure",
+    "entities": "class",
+    "repositories": "mappings",
+    "protocols": "resource",
+    "useCases": "components",
+    "adapters": "connection",
+    "factories": "container",
+    "globals": "global",
+    "ui": "views"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    ".lintstagedrc.json": "tune"
+  },
+  "workbench.editor.untitled.hint": "hidden",
+  "polacode.transparentBackground": true,
+  "polacode.shadow": "rgba(0, 0, 0, 0) 0px 0 0",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.inlineSuggest.enabled": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
+  },
+  "redhat.telemetry.enabled": true,
+  "bracketPairColorizer.depreciation-notice": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.formatOnSave": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "window.zoomLevel": -2
+}
